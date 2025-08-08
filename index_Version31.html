@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>Scrapchi Studio - ערכת סקראפ אישית למסע</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background: #f0f3fa;
+            font-family: "Segoe UI", Arial, sans-serif;
+            direction: rtl;
+        }
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            background: linear-gradient(90deg, #8ed0e6 0%, #f9d6e5 100%);
+            padding: 2em 0 1em 0;
+            text-align: center;
+            position: relative;
+        }
+        .logo-wrapper {
+            position: absolute;
+            top: 24px;
+            right: 30px;
+            margin-bottom: 0;
+            z-index: 10;
+        }
+        .logo-wrapper img {
+            max-width: 270px;
+            height: auto;
+            display: block;
+        }
+        header h1 {
+            margin: 0;
+            color: #234567;
+            font-size: 2.6em;
+            letter-spacing: 2px;
+        }
+        header .subtitle {
+            color: #6e2a56;
+            font-size: 1.2em;
+            margin-bottom: 1em;
+        }
+        main {
+            flex: 1 1 auto;
+            max-width: 700px;
+            background: #fff;
+            margin: -40px auto 30px auto;
+            border-radius: 16px;
+            box-shadow: 0 4px 18px #c6d0de66;
+            padding: 2.5em 2em 2em 2em;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        h2 {
+            color: #6e2a56;
+            border-bottom: 1px solid #f9d6e5;
+            padding-bottom: 0.3em;
+            margin-top: 0;
+        }
+        ul, ol {
+            padding-right: 1.5em;
+        }
+        li {
+            margin-bottom: 0.7em;
+        }
+        .kit-content {
+            background: #e9f7fa;
+            border: 1px solid #cbe5ee;
+            border-radius: 12px;
+            padding: 1.5em;
+            margin-bottom: 2em;
+        }
+        .kit-content ul, .possibilities ul, .examples ul, .questions ul {
+            list-style: none;
+            padding-right: 0;
+        }
+        .kit-content li, .possibilities li, .examples li, .questions li {
+            font-size: 1.09em;
+            margin-bottom: 1em;
+            display: flex;
+            align-items: center;
+        }
+        .kit-content li .icon, .possibilities li .icon, .examples li .icon, .questions li .icon {
+            font-size: 1.4em;
+            margin-left: 0.5em;
+            font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
+        }
+        .questions {
+            background: #f6f6fd;
+            border: 1px dashed #c5c6ee;
+            border-radius: 12px;
+            padding: 1.5em;
+            margin-bottom: 2em;
+        }
+        .questions h2 {
+            border: none;
+            color: #5a5aaf;
+            font-size: 1.16em;
+            margin-bottom: 0.5em;
+        }
+        .questions .note {
+            color: #8a8a8a;
+            font-size: 0.97em;
+            margin-top: 0.3em;
+        }
+        .contact {
+            background: #f9d6e5;
+            padding: 1.2em;
+            border-radius: 12px;
+            color: #234567;
+        }
+        .contact .contact-details {
+            margin-top: 1em;
+            direction: ltr;
+            text-align: right;
+            font-size: 1.08em;
+        }
+        .contact .contact-details span {
+            direction: rtl;
+            display: inline-block;
+        }
+        .contact .contact-details .icon {
+            font-size: 1.1em;
+            margin-left: 0.3em;
+        }
+        .contact .name {
+            margin-top: 0.5em;
+            color: #6e2a56;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            color: #999;
+            padding: 1em 0;
+            font-size: 0.95em;
+            background: transparent;
+        }
+        @media (max-width: 600px) {
+            .logo-wrapper {
+                top: 10px;
+                right: 10px;
+            }
+            .logo-wrapper img {
+                max-width: 130px;
+            }
+            main { padding: 1.2em 0.5em; }
+            header h1 { font-size: 2em; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-wrapper">
+            <img src="logo4.png" alt="Scrapchi Studio Logo">
+        </div>
+        <h1>Scrapchi Studio</h1>
+        <div class="subtitle">ערכת סקראפ אישית למסע שלך</div>
+    </header>
+    <main>
+        <section>
+            <h2>ברוכים הבאים!</h2>
+            <p>
+                מחברת הסקראפ של <b>Scrapchi Studio</b> נוצרה במיוחד עבורך כדי לתעד, להדביק, לכתוב ולשמור את כל הרגעים החשובים במסע האישי שלך. 
+                זה הזמן לתת ליצירתיות לפרוח, לשלב תמונות, כרטיסים, זכרונות וסיפורים - ולהפוך אותם לאלבום אישי ומרגש.
+            </p>
+        </section>
+        <section class="kit-content">
+            <h2>תוכן הערכה</h2>
+            <ul>
+                <li><span class="icon">📒</span>מחברת סקראפ מעוצבת ואיכותית</li>
+                <li><span class="icon">🧷</span>סט מדבקות ייחודיות לעיצוב אישי</li>
+                <li><span class="icon">🎨</span>דפי קראפט צבעוניים להדבקה והשראה</li>
+                <li><span class="icon">🌀</span>גליל וואשי טייפ</li>
+                <li><span class="icon">🖊️</span>עט צבעוני לכתיבה יצירתית</li>
+                <li><span class="icon">🧴</span>דבק מיוחד להדבקה</li>
+                <li><span class="icon">✉️</span>מעטפה מיוחדת לשמירת הזכרונות</li>
+            </ul>
+            <p style="margin-top:1em;">
+                <b>כל הפריטים נבחרו בקפידה כדי להפוך את חווית היצירה שלך למושלמת, אישית ומהנה במיוחד.</b>
+            </p>
+        </section>
+        <section class="possibilities">
+            <h2>מה אפשר לעשות במחברת?</h2>
+            <ul>
+                <li><span class="icon">📸</span>לתעד חוויות, מסעות, טיולים ואירועים מיוחדים</li>
+                <li><span class="icon">🗂️</span>להדביק תמונות, כרטיסים, קבלות ופתקים למזכרת</li>
+                <li><span class="icon">✍️</span>לכתוב סיפורים, מחשבות, רגשות ושירים</li>
+                <li><span class="icon">🖼️</span>לעצב קולאז'ים ולשלב אלמנטים יצירתיים</li>
+                <li><span class="icon">🌈</span>לשלב מדבקות, וואשי טייפ, ציורים ואיורים</li>
+                <li><span class="icon">🎶</span>לשלב שירים, ציטוטים, מילים שנגעו בי</li>
+                <li><span class="icon">🎯</span>לבנות לוח חזון קטן – מה בא לי שיקרה לי?</li>
+                <li><span class="icon">❤</span>ליצור דף תודה או דף גאווה עצמית</li>
+                <li><span class="icon">🎭</span>להביע את עצמי גם בלי מילים – עם צבעים, מרקמים, קווים, מדבקות</li>
+                <li><span class="icon">📓</span>ליצור יומן אישי או יומן מסע</li>
+                <li><span class="icon">🎁</span>להעניק במתנה לאדם אהוב</li>
+            </ul>
+        </section>
+        <section class="examples">
+            <h2>רעיונות ודוגמאות לדפים</h2>
+            <ul>
+                <li><span class="icon">🌄</span>דף סיכום טיול/חופשה: שלבו תמונות, מפות, כרטיסי כניסה, וכתבו את הרגעים הבלתי נשכחים.</li>
+                <li><span class="icon">🎂</span>דף יום הולדת: הכניסו ברכות, תמונות, וזכרונות מהיום המיוחד.</li>
+                <li><span class="icon">🎓</span>דף סיום לימודים: תיעוד תמונות מחלוקות תעודה, ברכות של חברים ומורים.</li>
+                <li><span class="icon">🍃</span>דף השראה: ציטוטים, תמונות וטקסטים שנותנים כוח ומוטיבציה.</li>
+                <li><span class="icon">📝</span>דף מטרות/חלומות: כתבו ושמרו את היעדים לשנה הקרובה, ציירו אותם או צרפו תמונות השראה.</li>
+                <li><span class="icon">👫</span>דף חברות: משפטים, תמונות, ובדיחות פרטיות עם החברים הכי טובים.</li>
+                <li><span class="icon">💌</span>דף תודה: רשימת דברים קטנים וגדולים שעליהם אתם מודים, עם איורים ומדבקות מתאימות.</li>
+                <li><span class="icon">⭐</span>דף גאווה עצמית: רשמו הישגים, מחמאות שקיבלתם ודברים שאתם גאים בהם.</li>
+                <li><span class="icon">🎵</span>דף שירים או פלייליסט: מילות שירים אהובים, פלייליסט למסע, עם עיצוב מוזיקלי.</li>
+                <li><span class="icon">📅</span>דף לוח שנה קטן: מעקב אחרי ימים חשובים, חוויות ומטרות חודשיות.</li>
+                <li><span class="icon">🖍️</span>דף יצירה חופשית: צבעים, טושים, מרקמים, קולאז' וכל מה שמתחשק!</li>
+            </ul>
+        </section>
+        <section class="questions">
+            <h2>💡 שאלות מנחות להשראה (רשות)</h2>
+            <ul>
+                <li><span class="icon">🤔</span>מה הרגשתי היום?</li>
+                <li><span class="icon">✨</span>איזה רגע קטן שמח אותי?</li>
+                <li><span class="icon">🙏</span>על מה אני רוצה להודות לעצמי?</li>
+                <li><span class="icon">🧠</span>מה למדתי על עצמי השבוע?</li>
+                <li><span class="icon">📝</span>מה הייתי רוצה לזכור מהתקופה הזו?</li>
+                <li><span class="icon">🤗</span>עם מי הייתי רוצה לחלוק את הזיכרון הזה?</li>
+                <li><span class="icon">💭</span>איזו מחשבה או חלום ליוו אותי לאחרונה?</li>
+                <li><span class="icon">🌟</span>מה הייתי רוצה לאחל לעצמי?</li>
+            </ul>
+            <div class="note">
+                אפשר לבחור שאלה אחת, כמה, או פשוט להמציא בעצמך! אין חובה לענות, רק אם מתחשק לקבל השראה.
+            </div>
+        </section>
+        <section>
+            <h2>איך משתמשים במחברת?</h2>
+            <ol>
+                <li>פתחו את המחברת ובחרו עמוד ראשון למסע שלכם.</li>
+                <li>הדביקו תמונות, כרטיסים, פתקים, קבלות או כל מזכרת שתרצו.</li>
+                <li>כתבו מחשבות, סיפורים, חוויות ורגשות לצד התמונות והפריטים.</li>
+                <li>הוסיפו מדבקות, שבלונות, טושים צבעוניים וכל אלמנט יצירתי שתרצו.</li>
+                <li>המשיכו לעצב כל עמוד לפי הקצב וההשראה שלכם.</li>
+                <li>בסיום המסע - דפדפו, תיהנו ושתפו עם אחרים!</li>
+            </ol>
+        </section>
+        <section>
+            <h2>שאלות נפוצות</h2>
+            <ul>
+                <li><b>איזה חומרים מומלץ להשתמש?</b> דבק סטיק, וואשי טייפ, טושים רגילים, ג'ל, מדבקות, מספריים ועוד.</li>
+                <li><b>מה עושים אם טעיתי או לא מרוצה?</b> אפשר להדביק דף חדש, לכסות במדבקה או ליצור שכבת עיצוב חדשה.</li>
+                <li><b>האם המחברת מתאימה לילדים?</b> בהחלט! מתאימה לכל גיל ולכל מסע.</li>
+            </ul>
+        </section>
+        <section class="contact">
+            <h2>צור קשר</h2>
+            <div class="contact-details">
+                <div>
+                    <span class="icon">📞</span>
+                    <span>052-4685729</span>
+                </div>
+                <div class="name">
+                    טובי נפטצ'י
+                </div>
+                <div>
+                    <span class="icon">✉️</span>
+                    <span>
+                        <a href="mailto:Scrapchi.Studio@gmail.com" style="color:#234567; text-decoration:underline;">Scrapchi.Studio@gmail.com</a>
+                    </span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Scrapchi Studio | כל הזכויות שמורות
+    </footer>
+</body>
+</html>
